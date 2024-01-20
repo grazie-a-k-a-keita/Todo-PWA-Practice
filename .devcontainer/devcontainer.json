@@ -13,7 +13,13 @@
           "source.organizeImports": true,
           "source.fixAll.eslint": true
         },
-        "cSpell.userWords": ["todos", "qrcode", "localforage"]
+        "cSpell.userWords": [
+          "todos",
+          "qrcode",
+          "localforage",
+          "devcontainers",
+          "pjson"
+        ]
       },
       "extensions": [
         "dsznajder.es7-react-js-snippets",
