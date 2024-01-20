@@ -63,6 +63,21 @@ export default defineConfig({
             purpose: "maskable",
           },
         ],
+        // Richer UI install available for desktop
+        screenshots: [
+          {
+            src: "screenshot1-320x320.png",
+            sizes: "320x320",
+            type: "image/png",
+            form_factor: "wide",
+          },
+          {
+            src: "screenshot2-320x320.png",
+            sizes: "320x320",
+            type: "image/png",
+            form_factor: "narrow",
+          },
+        ],
       },
     }),
   ],
